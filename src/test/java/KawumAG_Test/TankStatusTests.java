@@ -15,7 +15,7 @@ class TankStatusTests {
         FakePressureSensor fakePressureSensor = new FakePressureSensor();
         Tank tank = new Tank(fakePressureSensor);
 
-        double[] values = {0, 20, 49};
+        double[] values = {0, 20, 49, 51};
 
         for (double value : values){
             fakePressureSensor.setPressure(value);
