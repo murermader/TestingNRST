@@ -33,7 +33,7 @@ class UnitTests {
 
         // Wenn wir hier angekommen sind, wurden alle Nachrichten korrekt an den
         // Server geloggt
-        assertTrue(true);
+        assertTrue(false);
     }
 
     @Test
